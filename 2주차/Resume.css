@@ -2,7 +2,6 @@ body{
 	color: #e4e4e4;
 	font-family: "Verdana", "Tahoma", "sans-serif";
 	background-color:#800000;
-	text-align: left;
 	background-image: url("cse326bg.png");
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -54,6 +53,11 @@ table { border-collapse: collapse; }
 tr:nth-child(2){
 	background-color: blue;
 }
+ol,ul,dl{
+	
+		text-align: left;
+}
+
 ol{
 	list-style: upper-roman;
 }
