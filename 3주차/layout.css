@@ -10,10 +10,12 @@ div{
 	border:solid white 10px;
 }
 div #header{
+	border:none;
 	overflow: hidden;
 	background-color: #8E8E8E;
 	font-size: 14pt;
 	color: #B7B7B7;
+	margin-bottom: 10px;
 }
 div *:hover{
 	background-color:yellow;
@@ -36,13 +38,13 @@ div .section {
 	
 
 	
-	margin-left: 160px
+	margin-left: 150px
 }
 div #sidebar{
 	float: left;
 	background-color: #3366CC;
 	border-width: 150px;
-	margin-left: 10px;
+	
 	font-size:10px;
 	text-align: left;
 	border-radius: 12px;
